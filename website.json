@@ -1,5 +1,7 @@
 {
   "IndexDocument": { "Suffix": "index.html" },
-  "RoutingRules": [{"Condition": {"KeyPrefixEquals": "facepalm"}, "Redirect": {"ReplaceKeyPrefixWith": "fp.gif"}}]
-  "RoutingRules": [{"Condition": {"KeyPrefixEquals": "raiseglass"}, "Redirect": {"ReplaceKeyPrefixWith": "rg.gif"}}]
+  "RoutingRules": [
+    {"Condition": {"KeyPrefixEquals": "facepalm"}, "Redirect": {"ReplaceKeyPrefixWith": "fp.gif"}},
+    {"Condition": {"KeyPrefixEquals": "raiseglass"}, "Redirect": {"ReplaceKeyPrefixWith": "rg.gif"}}
+  ]
 }
