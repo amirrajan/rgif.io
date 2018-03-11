@@ -2,6 +2,10 @@
   "IndexDocument": { "Suffix": "index.html" },
   "RoutingRules": [
     {"Condition": {"KeyPrefixEquals": "facepalm"}, "Redirect": {"ReplaceKeyPrefixWith": "fp.gif"}},
-    {"Condition": {"KeyPrefixEquals": "raiseglass"}, "Redirect": {"ReplaceKeyPrefixWith": "rg.gif"}}
+    {"Condition": {"KeyPrefixEquals": "raiseglass"}, "Redirect": {"ReplaceKeyPrefixWith": "rg.gif"}},
+    {"Condition": {"KeyPrefixEquals": "shocked"}, "Redirect": {"ReplaceKeyPrefixWith": "s.gif"}},
+    {"Condition": {"KeyPrefixEquals": "nogodno"}, "Redirect": {"ReplaceKeyPrefixWith": "ngn.gif"}},
+    {"Condition": {"KeyPrefixEquals": "disagree"}, "Redirect": {"ReplaceKeyPrefixWith": "d.gif"}},
+    {"Condition": {"KeyPrefixEquals": "whatever"}, "Redirect": {"ReplaceKeyPrefixWith": "we.gif"}}
   ]
 }
