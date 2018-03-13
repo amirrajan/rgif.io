@@ -8,6 +8,7 @@
     {"Condition": {"KeyPrefixEquals": "disagree"}, "Redirect": {"ReplaceKeyPrefixWith": "d.gif"}},
     {"Condition": {"KeyPrefixEquals": "whatever"}, "Redirect": {"ReplaceKeyPrefixWith": "we.gif"}},
     {"Condition": {"KeyPrefixEquals": "confused"}, "Redirect": {"ReplaceKeyPrefixWith": "rc.gif"}},
+    {"Condition": {"KeyPrefixEquals": "lost"}, "Redirect": {"ReplaceKeyPrefixWith": "l.gif"}},
     {"Condition": {"KeyPrefixEquals": "trap"}, "Redirect": {"ReplaceKeyPrefixWith": "iat.gif"}}
   ]
 }
