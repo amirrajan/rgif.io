@@ -9,6 +9,7 @@
     {"Condition": {"KeyPrefixEquals": "whatever"}, "Redirect": {"ReplaceKeyPrefixWith": "we.gif"}},
     {"Condition": {"KeyPrefixEquals": "confused"}, "Redirect": {"ReplaceKeyPrefixWith": "rc.gif"}},
     {"Condition": {"KeyPrefixEquals": "lost"}, "Redirect": {"ReplaceKeyPrefixWith": "l.gif"}},
+    {"Condition": {"KeyPrefixEquals": "justin"}, "Redirect": {"ReplaceKeyPrefixWith": "bc.gif"}},
     {"Condition": {"KeyPrefixEquals": "trap"}, "Redirect": {"ReplaceKeyPrefixWith": "iat.gif"}}
   ]
 }
