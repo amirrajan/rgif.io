@@ -14,6 +14,7 @@
     {"Condition": {"KeyPrefixEquals": "showdown"}, "Redirect": {"ReplaceKeyPrefixWith": "sd.gif"}},
     {"Condition": {"KeyPrefixEquals": "goodgood"}, "Redirect": {"ReplaceKeyPrefixWith": "gg.gif"}},
     {"Condition": {"KeyPrefixEquals": "itshappening"}, "Redirect": {"ReplaceKeyPrefixWith": "ih.gif"}},
+    {"Condition": {"KeyPrefixEquals": "magic"}, "Redirect": {"ReplaceKeyPrefixWith": "m.gif"}},
     {"Condition": {"KeyPrefixEquals": "awkward"}, "Redirect": {"ReplaceKeyPrefixWith": "a.gif"}},
     {"Condition": {"KeyPrefixEquals": "trap"}, "Redirect": {"ReplaceKeyPrefixWith": "iat.gif"}}
   ]
