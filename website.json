@@ -11,6 +11,7 @@
     {"Condition": {"KeyPrefixEquals": "lost"}, "Redirect": {"ReplaceKeyPrefixWith": "l.gif"}},
     {"Condition": {"KeyPrefixEquals": "justin"}, "Redirect": {"ReplaceKeyPrefixWith": "jj.gif"}},
     {"Condition": {"KeyPrefixEquals": "mindblown"}, "Redirect": {"ReplaceKeyPrefixWith": "mb.gif"}},
+    {"Condition": {"KeyPrefixEquals": "bees"}, "Redirect": {"ReplaceKeyPrefixWith": "b.gif"}},
     {"Condition": {"KeyPrefixEquals": "excellent"}, "Redirect": {"ReplaceKeyPrefixWith": "e.gif"}},
     {"Condition": {"KeyPrefixEquals": "showdown"}, "Redirect": {"ReplaceKeyPrefixWith": "sd.gif"}},
     {"Condition": {"KeyPrefixEquals": "goodgood"}, "Redirect": {"ReplaceKeyPrefixWith": "gg.gif"}},
