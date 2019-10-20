@@ -1,3 +1,4 @@
 {
-  "IndexDocument": { "Suffix": "index.html" }
+  "IndexDocument": { "Suffix": "index.html" },
+  "ErrorDocument": { "Key": "rr.gif" }
 }
