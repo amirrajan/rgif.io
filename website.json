@@ -18,6 +18,7 @@
     {"Condition": {"KeyPrefixEquals": "itshappening"}, "Redirect": {"ReplaceKeyPrefixWith": "ih.gif"}},
     {"Condition": {"KeyPrefixEquals": "magic"}, "Redirect": {"ReplaceKeyPrefixWith": "m.gif"}},
     {"Condition": {"KeyPrefixEquals": "awkward"}, "Redirect": {"ReplaceKeyPrefixWith": "a.gif"}},
-    {"Condition": {"KeyPrefixEquals": "trap"}, "Redirect": {"ReplaceKeyPrefixWith": "iat.gif"}}
+    {"Condition": {"KeyPrefixEquals": "trap"}, "Redirect": {"ReplaceKeyPrefixWith": "iat.gif"}},
+    {"Condition": {"KeyPrefixEquals": "whynot"}, "Redirect": {"ReplaceKeyPrefixWith": "whynot.gif"}}
   ]
 }
