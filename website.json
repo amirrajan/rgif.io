@@ -1,4 +1,6 @@
 {
   "IndexDocument": { "Suffix": "index.html" },
-  "RoutingRules": []
+  "RoutingRules": [
+    {"Condition": {"KeyPrefixEquals": "b.gif"}, "Redirect": {"ReplaceKeyPrefixWith": "bees.gif"}},
+  ]
 }
