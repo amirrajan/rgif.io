@@ -1,182 +1,182 @@
 <!doctype html>
 
 <html lang="en">
-    <head>
-	<style>
-	 body {
-	     padding-top: 25px;
-	     padding-left: 25px;
-	     padding-right: 25px;
-	     padding-bottom: 50px;
-	     max-width: 500px;
-	     margin-left: auto;
-	     margin-right: auto;
-	     font-size: 16px;
-	     font-family: 'Helvetica', 'Arial', sans-serif;
-	     line-height: 1.5;
-	     font-weight: 300;
-	     background-color: #FFFFFF;
-	     color: #111111;
-	 }
+  <head>
+    <style>
+      body {
+          padding-top: 25px;
+          padding-left: 25px;
+          padding-right: 25px;
+          padding-bottom: 50px;
+          max-width: 500px;
+          margin-left: auto;
+          margin-right: auto;
+          font-size: 16px;
+          font-family: 'Helvetica', 'Arial', sans-serif;
+          line-height: 1.5;
+          font-weight: 300;
+          background-color: #FFFFFF;
+          color: #111111;
+      }
 
-	 a {
-	     color: #0077CC;
-	     text-decoration: none;
-	 }
+      a {
+          color: #0077CC;
+          text-decoration: none;
+      }
 
-	 a:visited {
-	     color: #4A6B82;
-	 }
+      a:visited {
+          color: #4A6B82;
+      }
 
-	 .brand {
-	     font-size: 25px;
-	     color: black !important;
-	 }
+      .brand {
+          font-size: 25px;
+          color: black !important;
+      }
 
-	 .page-link {
-	     margin-right: 15px;
-	 }
+      .page-link {
+          margin-right: 15px;
+      }
 
-	 h1 {
-	     font-size: 23px;
-	 }
+      h1 {
+          font-size: 23px;
+      }
 
-	 h2 {
-	     font-size: 22px;
-	     margin-bottom: 3px;
-	 }
+      h2 {
+          font-size: 22px;
+          margin-bottom: 3px;
+      }
 
-	 h3 {
-	     font-size: 21px;
-	 }
+      h3 {
+          font-size: 21px;
+      }
 
-	 hr {
-	     border: 0;
-	     height: 2px;
-	     margin:18px 0;
-	     position:relative;
-	     background: -moz-linear-gradient(left, rgba(0,0,0,0) 0%, rgba(0,0,0,0) 10%, rgba(0,0,0,0.65) 50%, rgba(0,0,0,0) 90%, rgba(0,0,0,0) 100%);
-	     background: -webkit-gradient(linear, left top, right top, color-stop(0%,rgba(0,0,0,0)), color-stop(10%,rgba(0,0,0,0)), color-stop(50%,rgba(0,0,0,0.65)), color-stop(90%,rgba(0,0,0,0)), color-stop(100%,rgba(0,0,0,0)));
-	     background: -webkit-linear-gradient(left, rgba(0,0,0,0) 0%,rgba(0,0,0,0) 10%,rgba(0,0,0,0.65) 50%,rgba(0,0,0,0) 90%,rgba(0,0,0,0) 100%);
-	     background: -o-linear-gradient(left, rgba(0,0,0,0) 0%,rgba(0,0,0,0) 10%,rgba(0,0,0,0.65) 50%,rgba(0,0,0,0) 90%,rgba(0,0,0,0) 100%);
-	     background: -ms-linear-gradient(left, rgba(0,0,0,0) 0%,rgba(0,0,0,0) 10%,rgba(0,0,0,0.65) 50%,rgba(0,0,0,0) 90%,rgba(0,0,0,0) 100%);
-	     background: linear-gradient(left, rgba(0,0,0,0) 0%,rgba(0,0,0,0) 10%,rgba(0,0,0,0.65) 50%,rgba(0,0,0,0) 90%,rgba(0,0,0,0) 100%);
-	     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00000000', endColorstr='#00000000',GradientType=1 );
-	 }
+      hr {
+          border: 0;
+          height: 2px;
+          margin:18px 0;
+          position:relative;
+          background: -moz-linear-gradient(left, rgba(0,0,0,0) 0%, rgba(0,0,0,0) 10%, rgba(0,0,0,0.65) 50%, rgba(0,0,0,0) 90%, rgba(0,0,0,0) 100%);
+          background: -webkit-gradient(linear, left top, right top, color-stop(0%,rgba(0,0,0,0)), color-stop(10%,rgba(0,0,0,0)), color-stop(50%,rgba(0,0,0,0.65)), color-stop(90%,rgba(0,0,0,0)), color-stop(100%,rgba(0,0,0,0)));
+          background: -webkit-linear-gradient(left, rgba(0,0,0,0) 0%,rgba(0,0,0,0) 10%,rgba(0,0,0,0.65) 50%,rgba(0,0,0,0) 90%,rgba(0,0,0,0) 100%);
+          background: -o-linear-gradient(left, rgba(0,0,0,0) 0%,rgba(0,0,0,0) 10%,rgba(0,0,0,0.65) 50%,rgba(0,0,0,0) 90%,rgba(0,0,0,0) 100%);
+          background: -ms-linear-gradient(left, rgba(0,0,0,0) 0%,rgba(0,0,0,0) 10%,rgba(0,0,0,0.65) 50%,rgba(0,0,0,0) 90%,rgba(0,0,0,0) 100%);
+          background: linear-gradient(left, rgba(0,0,0,0) 0%,rgba(0,0,0,0) 10%,rgba(0,0,0,0.65) 50%,rgba(0,0,0,0) 90%,rgba(0,0,0,0) 100%);
+          filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00000000', endColorstr='#00000000',GradientType=1 );
+      }
 
-	 hr:before {
-	     content: "";
-	     display: block;
-	     border-top: solid 1px #f9f9f9;
-	     width: 100%;
-	     height: 1px;
-	     position: absolute;
-	     top: 50%;
-	     z-index: 1;
-	 }
+      hr:before {
+          content: "";
+          display: block;
+          border-top: solid 1px #f9f9f9;
+          width: 100%;
+          height: 1px;
+          position: absolute;
+          top: 50%;
+          z-index: 1;
+      }
 
-	 pre {
-	     border: solid 1px silver;
-	     padding: 10px;
-	     font-size: 14px;
-	     white-space: pre-wrap;
-	     white-space: -moz-pre-wrap;
-	     white-space: -pre-wrap;
-	     white-space: -o-pre-wrap;
-	     word-wrap: break-word;
-	 }
+      pre {
+          border: solid 1px silver;
+          padding: 10px;
+          font-size: 14px;
+          white-space: pre-wrap;
+          white-space: -moz-pre-wrap;
+          white-space: -pre-wrap;
+          white-space: -o-pre-wrap;
+          word-wrap: break-word;
+      }
 
-	 iframe {
-	     max-width: 100%;
-	     display: block;
-	     margin: 0 auto;
-	 }
+      iframe {
+          max-width: 100%;
+          display: block;
+          margin: 0 auto;
+      }
 
-	 .wordwrap {
-	     white-space: pre-wrap;
-	     white-space: -moz-pre-wrap;
-	     white-space: -pre-wrap;
-	     white-space: -o-pre-wrap;
-	     word-wrap: break-word;
-	 }
+      .wordwrap {
+          white-space: pre-wrap;
+          white-space: -moz-pre-wrap;
+          white-space: -pre-wrap;
+          white-space: -o-pre-wrap;
+          word-wrap: break-word;
+      }
 
-	 blockquote {
-	     font-style: italic;
-	 }
+      blockquote {
+          font-style: italic;
+      }
 
-	 a { font-family: monospace; }
-	</style>
-	<meta charset="utf-8">
+      a { font-family: monospace; }
+    </style>
+    <meta charset="utf-8">
 
-	<title>Reply Gif/Reaction Gif - rgif</title>
-	<meta name="viewport" content="initial-scale = 1.0,maximum-scale = 1.0" />
-	<meta name="description" content="Post the exact god damn gif you expect because it's an easy url to remember and not the random shit that Giphy returns.">
-    </head>
+    <title>Reply Gif/Reaction Gif - rgif</title>
+    <meta name="viewport" content="initial-scale = 1.0,maximum-scale = 1.0" />
+    <meta name="description" content="Post the exact god damn gif you expect because it's an easy url to remember and not the random shit that Giphy returns.">
+  </head>
 
-    <body>
-      <h1>Reply Gif/Reaction Gif - rgif.io</h1>
-      <p>
-        I got really fucking tired of Giphy and its inability to get the exact fucking gif it's meant to get. And then when you find the correct one, you have to go through all this bullshit to just get to the god damn gif file itself. Like wtf?<br/>
-      </p>
+  <body>
+    <h1>Reply Gif/Reaction Gif - rgif.io</h1>
+    <p>
+      I got really fucking tired of Giphy and its inability to get the exact fucking gif it's meant to get. And then when you find the correct one, you have to go through all this bullshit to just get to the god damn gif file itself. Like wtf?<br/>
+    </p>
 
-      <p>
-        Here are hard-coded urls for the right god damn gifs (just memorize the abbreviated urls and type them into the address bar, Slack, HipChat, Twitter, or anywhere else):
-      </p>
+    <p>
+      Here are hard-coded urls for the right god damn gifs (just memorize the abbreviated urls and type them into the address bar, Slack, HipChat, Twitter, or anywhere else):
+    </p>
 
-      <ul>
-	<li><a data-gif href="http://rgif.io/9000.gif">9000.gif</a>: Vegita It's Over 9000</li>
-	<li><a data-gif href="http://rgif.io/asianthumbsup.gif">asianthumbsup.gif</a>: Asian Guy Thumbs Up</li>
-	<li><a data-gif href="http://rgif.io/babyconfused.gif">babyconfused.gif</a>: Baby WTF Face</li>
-	<li><a data-gif href="http://rgif.io/bees.gif">bees.gif</a>: Oprah Bees</li>
-	<li><a data-gif href="http://rgif.io/doit.gif">doit.gif</a>: Shia Labeouf Do It</li>
-	<li><a data-gif href="http://rgif.io/excellentburns.gif">excellentburns.gif</a>: Excellent George Burns</li>
-	<li><a data-gif href="http://rgif.io/facepalm.gif">facepalm.gif</a>: Captain Picard Face Palm</li>
-	<li><a data-gif href="http://rgif.io/fireflyconfused.gif">fireflyconfused.gif</a>: Firefly Confused</li>
-	<li><a data-gif href="http://rgif.io/gladiatorthumbsup.gif">gladiatorthumbsup.gif</a>: Gladiator Thumbs Up</li>
-	<li><a data-gif href="http://rgif.io/goodgood.gif">goodgood.gif</a>: Good... Good...</li>
-	<li><a data-gif href="http://rgif.io/grimacing.gif">grimacing.gif</a>: Awkward Michael Scott</li>
-	<li><a data-gif href="http://rgif.io/hatersgonnahate.gif">hatersgonnahate.gif</a>: Haters Gonna Hate</li>
-	<li><a data-gif href="http://rgif.io/hellno.gif">hellno.gif</a>: Hell No</li>
-	<li><a data-gif href="http://rgif.io/holdontoyourbutts.gif">holdontoyourbutts.gif</a>: Hold On To Your Butts</li>
-	<li><a data-gif href="http://rgif.io/homerbush.gif">homerbush.gif</a>: Homer Bush</li>
-	<li><a data-gif href="http://rgif.io/idowhatiwant.gif">idowhatiwant.gif</a>: Cartman I Do What I Want</li>
-	<li><a data-gif href="http://rgif.io/itsatrap.gif">itsatrap.gif</a>: It's A Trap</li>
-	<li><a data-gif href="http://rgif.io/itshappening.gif">itshappening.gif</a>: Ron Paul It's Happening</li>
-	<li><a data-gif href="http://rgif.io/jokerclapping.gif">jokerclapping.gif</a>: Joker Clapping</li>
-	<li><a data-gif href="http://rgif.io/kaneclapping.gif">kaneclapping.gif</a>: Citizen Kane Clapping</li>
-	<li><a data-gif href="http://rgif.io/kermit.gif">kermit.gif</a>: Kermit Tea</li>
-	<li><a data-gif href="http://rgif.io/kidthumbsup.gif">kidthumbsup.gif</a>: Brent Rambo Thumbs Up</li>
-	<li><a data-gif href="http://rgif.io/luigideathstare.gif">luigideathstare.gif</a>: Luigi Death Stare</li>
-	<li><a data-gif href="http://rgif.io/magic.gif">magic.gif</a>: Magic</li>
-	<li><a data-gif href="http://rgif.io/mindblown.gif">mindblown.gif</a>: Mindblown</li>
-	<li><a data-gif href="http://rgif.io/nod.gif">nodding.gif</a>: Nodding</li>
-	<li><a data-gif href="http://rgif.io/nogodno.gif">nogodno.gif</a>: No God No Michael Scott</li>
-	<li><a data-gif href="http://rgif.io/nope.gif">nope.gif</a>: F***ing Nope</li>
-	<li><a data-gif href="http://rgif.io/nopesimpsons.gif">nopesimpsons.gif</a>: Grampa Simpson Leaving</li>
-	<li><a data-gif href="http://rgif.io/officebunny.gif">officebunny.gif</a>: Bunny in Office Falling Asleep</li>
-	<li><a data-gif href="http://rgif.io/officespacedisagrees.gif">officespacedisagrees.gif</a>: Office Space Boss Disagrees</li>
-	<li><a data-gif href="http://rgif.io/ohsnap.gif">ohsnap.gif</a>: Oh Snap!</li>
-	<li><a data-gif href="http://rgif.io/panda.gif">panda.gif</a>: Panda Rage</li>
-	<li><a data-gif href="http://rgif.io/patrick.gif">patrick.gif</a>: Patrick D:</li>
-	<li><a data-gif href="http://rgif.io/politicianclapping.gif">politicianclapping.gif</a>: Politician Clapping (Michael Gove)</li>
-	<li><a data-gif href="http://rgif.io/pulpfiction.gif">pulpfiction.gif</a>: John Travolta Lost</li>
-	<li><a data-gif href="http://rgif.io/raiseglass.gif">raiseglass.gif</a>: Leonardo Decaprio Raising A Glass</li>
-	<li><a data-gif href="http://rgif.io/robotconfused.gif">robotconfused.gif</a>: Robot Confused</li>
-	<li><a data-gif href="http://rgif.io/rr.gif">rr.gif</a>: Rick Roll</li>
-	<li><a data-gif href="http://rgif.io/showdown.gif">showdown.gif</a>: Showdown</li>
-	<li><a data-gif href="http://rgif.io/somebodystopme.gif">somebodystopme.gif</a>: Mask Somebody Stop Me</li>
-	<li><a data-gif href="http://rgif.io/stopgirl.gif">stopgirl.gif</a>: Stop Girl</li>
-	<li><a data-gif href="http://rgif.io/surprised.gif">suprised.gif</a>: Suprised Curly Hair Guy</li>
-	<li><a data-gif href="http://rgif.io/themoreyouknow.gif">themoreyouknow.gif</a>: The More You Know</li>
-	<li><a data-gif href="http://rgif.io/thinkaboutit.gif">thinkaboutit.gif</a>: Roll Safe Think About It</li>
-	<li><a data-gif href="http://rgif.io/whatever.gif">whatever.gif</a>: Whatever</li>
-	<li><a data-gif href="http://rgif.io/whynot.gif">whynot.gif</a>: Why Not?</li>
-	<li><a data-gif href="http://rgif.io/woohoo.gif">woohoo.gif</a>: Homer WooHoo!</li>
-	<li><a data-gif href="http://rgif.io/words.gif">words.gif</a>: Good Burger Words</li>
-	<li><a data-gif href="http://rgif.io/yeaok.gif">yeaok.gif</a>: Jennifer Lawrence Yea Okay Thumbs Up</li>
-	<li><a data-gif href="http://rgif.io/yougotitdude.gif">yougotitdude.gif</a>: You Got It Dude</li>
-      </ul>
+    <ul>
+      <li>Vegita It's Over 9000: <a data-gif href="http://rgif.io/9000.gif">9000.gif</a></li>
+      <li>Asian Guy Thumbs Up: <a data-gif href="http://rgif.io/asianthumbsup.gif">asianthumbsup.gif</a></li>
+      <li>Baby WTF Face: <a data-gif href="http://rgif.io/babyconfused.gif">babyconfused.gif</a></li>
+      <li>Oprah Bees: <a data-gif href="http://rgif.io/bees.gif">bees.gif</a></li>
+      <li>Shia Labeouf Do It: <a data-gif href="http://rgif.io/doit.gif">doit.gif</a></li>
+      <li>Excellent George Burns: <a data-gif href="http://rgif.io/excellentburns.gif">excellentburns.gif</a></li>
+      <li>Captain Picard Face Palm: <a data-gif href="http://rgif.io/facepalm.gif">facepalm.gif</a></li>
+      <li>Firefly Confused: <a data-gif href="http://rgif.io/fireflyconfused.gif">fireflyconfused.gif</a></li>
+      <li>Gladiator Thumbs Up: <a data-gif href="http://rgif.io/gladiatorthumbsup.gif">gladiatorthumbsup.gif</a></li>
+      <li>Good... Good...: <a data-gif href="http://rgif.io/goodgood.gif">goodgood.gif</a></li>
+      <li>Awkward Michael Scott: <a data-gif href="http://rgif.io/grimacing.gif">grimacing.gif</a></li>
+      <li>Haters Gonna Hate: <a data-gif href="http://rgif.io/hatersgonnahate.gif">hatersgonnahate.gif</a></li>
+      <li>Hell No: <a data-gif href="http://rgif.io/hellno.gif">hellno.gif</a></li>
+      <li>Hold On To Your Butts: <a data-gif href="http://rgif.io/holdontoyourbutts.gif">holdontoyourbutts.gif</a></li>
+      <li>Homer Bush: <a data-gif href="http://rgif.io/homerbush.gif">homerbush.gif</a></li>
+      <li>Cartman I Do What I Want: <a data-gif href="http://rgif.io/idowhatiwant.gif">idowhatiwant.gif</a></li>
+      <li>It's A Trap: <a data-gif href="http://rgif.io/itsatrap.gif">itsatrap.gif</a></li>
+      <li>Ron Paul It's Happening: <a data-gif href="http://rgif.io/itshappening.gif">itshappening.gif</a></li>
+      <li>Joker Clapping: <a data-gif href="http://rgif.io/jokerclapping.gif">jokerclapping.gif</a></li>
+      <li>Citizen Kane Clapping: <a data-gif href="http://rgif.io/kaneclapping.gif">kaneclapping.gif</a></li>
+      <li>Kermit Tea: <a data-gif href="http://rgif.io/kermit.gif">kermit.gif</a></li>
+      <li>Brent Rambo Thumbs Up: <a data-gif href="http://rgif.io/kidthumbsup.gif">kidthumbsup.gif</a></li>
+      <li>Luigi Death Stare: <a data-gif href="http://rgif.io/luigideathstare.gif">luigideathstare.gif</a></li>
+      <li>Magic: <a data-gif href="http://rgif.io/magic.gif">magic.gif</a></li>
+      <li>Mindblown: <a data-gif href="http://rgif.io/mindblown.gif">mindblown.gif</a></li>
+      <li>Nodding: <a data-gif href="http://rgif.io/nod.gif">nodding.gif</a></li>
+      <li>No God No Michael Scott: <a data-gif href="http://rgif.io/nogodno.gif">nogodno.gif</a></li>
+      <li>F***ing Nope: <a data-gif href="http://rgif.io/nope.gif">nope.gif</a></li>
+      <li>Grampa Simpson Leaving: <a data-gif href="http://rgif.io/nopesimpsons.gif">nopesimpsons.gif</a></li>
+      <li>Bunny in Office Falling Asleep: <a data-gif href="http://rgif.io/officebunny.gif">officebunny.gif</a></li>
+      <li>Office Space Boss Disagrees: <a data-gif href="http://rgif.io/officespacedisagrees.gif">officespacedisagrees.gif</a></li>
+      <li>Oh Snap!: <a data-gif href="http://rgif.io/ohsnap.gif">ohsnap.gif</a></li>
+      <li>Panda Rage: <a data-gif href="http://rgif.io/panda.gif">panda.gif</a></li>
+      <li>Patrick D:: <a data-gif href="http://rgif.io/patrick.gif">patrick.gif</a></li>
+      <li>Politician Clapping (Michael Gove): <a data-gif href="http://rgif.io/politicianclapping.gif">politicianclapping.gif</a></li>
+      <li>John Travolta Lost: <a data-gif href="http://rgif.io/pulpfiction.gif">pulpfiction.gif</a></li>
+      <li>Leonardo Decaprio Raising A Glass: <a data-gif href="http://rgif.io/raiseglass.gif">raiseglass.gif</a></li>
+      <li>Robot Confused: <a data-gif href="http://rgif.io/robotconfused.gif">robotconfused.gif</a></li>
+      <li>Rick Roll: <a data-gif href="http://rgif.io/rr.gif">rr.gif</a></li>
+      <li>Showdown: <a data-gif href="http://rgif.io/showdown.gif">showdown.gif</a></li>
+      <li>Mask Somebody Stop Me: <a data-gif href="http://rgif.io/somebodystopme.gif">somebodystopme.gif</a></li>
+      <li>Stop Girl: <a data-gif href="http://rgif.io/stopgirl.gif">stopgirl.gif</a></li>
+      <li>Suprised Curly Hair Guy: <a data-gif href="http://rgif.io/surprised.gif">suprised.gif</a></li>
+      <li>The More You Know: <a data-gif href="http://rgif.io/themoreyouknow.gif">themoreyouknow.gif</a></li>
+      <li>Roll Safe Think About It: <a data-gif href="http://rgif.io/thinkaboutit.gif">thinkaboutit.gif</a></li>
+      <li>Whatever: <a data-gif href="http://rgif.io/whatever.gif">whatever.gif</a></li>
+      <li>Why Not?: <a data-gif href="http://rgif.io/whynot.gif">whynot.gif</a></li>
+      <li>Homer WooHoo!: <a data-gif href="http://rgif.io/woohoo.gif">woohoo.gif</a></li>
+      <li>Good Burger Words: <a data-gif href="http://rgif.io/words.gif">words.gif</a></li>
+      <li>Jennifer Lawrence Yea Okay Thumbs Up: <a data-gif href="http://rgif.io/yeaok.gif">yeaok.gif</a></li>
+      <li>You Got It Dude: <a data-gif href="http://rgif.io/yougotitdude.gif">yougotitdude.gif</a></li>
+    </ul>
 
-      <a href="http://motherfuckingwebsite.com/">rgif.io is made with the latest and greatest web technologies.</a>
-    </body>
+    <a href="http://motherfuckingwebsite.com/">rgif.io is made with the latest and greatest web technologies.</a>
+  </body>
 </html>
