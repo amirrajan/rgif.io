@@ -3,7 +3,7 @@
 # Get the current directory
 current_dir=$(pwd)
 set +x
-gif_file="$current_dir/disappointed-fan.gif"
+gif_file="$current_dir/disappointed-justin.gif"
 filename=$(basename "$gif_file")
 filename="${filename%.*}"
 convert "$gif_file[0]" "$filename.png"
