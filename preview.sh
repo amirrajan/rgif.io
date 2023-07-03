@@ -3,8 +3,8 @@
 # Get the current directory
 current_dir=$(pwd)
 set +x
-gif_file="$current_dir/disappointed-justin.gif"
-filename=$(basename "$gif_file")
+file="$current_dir/evil-laughter.gif"
+filename=$(basename "$file")
 filename="${filename%.*}"
-convert "$gif_file[0]" "$filename.png"
-echo "Extracted 0 frame from '$gif_file' and saved as $filename.png"
+convert "$file[0]" "$filename.png"
+echo "Extracted 0 frame from '$file' and saved as $filename.png"
