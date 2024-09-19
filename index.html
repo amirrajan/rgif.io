@@ -5,33 +5,33 @@
     <script>
       function copyToClipboard(el) {
 	/* Get the text you want to copy */
-	var textToCopy = el.attributes["src"].value.replace(".png", ".gif");
+	var textToCopy = el.attributes["src"].value.replace(".png", ".gif")
 
 	/* Create a temporary input element */
-	var tempInput = document.createElement("input");
+	var tempInput = document.createElement("input")
 
 	/* Set the value of the temporary input to the text you want to copy */
-	tempInput.value = textToCopy;
+	tempInput.value = textToCopy
 
 	/* Append the temporary input element to the document */
-	document.body.appendChild(tempInput);
+	document.body.appendChild(tempInput)
 
 	/* Select the text in the temporary input element */
-	tempInput.select();
-	tempInput.setSelectionRange(0, 99999); /* For mobile devices */
+	tempInput.select()
+	tempInput.setSelectionRange(0, 99999) /* For mobile devices */
 
 	/* Copy the selected text to the clipboard */
-	document.execCommand("copy");
+	document.execCommand("copy")
 
 	/* Remove the temporary input element */
-	document.body.removeChild(tempInput);
+	document.body.removeChild(tempInput)
 
 	/* Optionally, you can provide feedback to the user */
-	var message = document.getElementById("message");
-        message.style.display = "block";
+	var message = document.getElementById("message")
+        message.style.display = "block"
         setTimeout(function() {
-          message.style.display = "none";
-        }, 2000);
+          message.style.display = "none"
+        }, 2000)
       }
     </script>
     <style>
