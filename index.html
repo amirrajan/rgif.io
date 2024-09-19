@@ -3,6 +3,10 @@
 <html lang="en">
   <head>
     <script>
+      function copyChildToClipboard(el) {
+        copyToClipboard(el.querySelector("[itemscope='itemscope'][itemprop='thumbnail-url']"))
+      }
+
       function copyToClipboard(el) {
 	/* Get the text you want to copy */
 	var textToCopy = el.attributes["src"].value.replace(".png", ".gif")
@@ -65,10 +69,15 @@
 	  color: #111111;
       }
 
-      div.img {
-	  border-bottom: solid 1px silver;
+      div {
+	  border: solid 1px silver;
 	  padding: 2px;
 	  margin: 2px;
+          margin-left: auto;
+          margin-right: auto;
+          min-width: 320px;
+          height: 160px;
+          text-align: center;
       }
 
       a {
@@ -162,7 +171,7 @@
 
     <title>Reaction Gif</title>
     <meta name="viewport" content="initial-scale = 1.0,maximum-scale = 1.0" />
-    <meta name="description" content="Get the exact god damn gif you expect because it's an easy url to remember and not the random shit that Giphy returns.">
+    <meta name="description" content="Get the exact gods damn gif you expect because it's an easy url to remember and not the random shit that Giphy returns.">
   </head>
 
   <body>
@@ -173,317 +182,317 @@
     </p>
 
     <p>
-      And then when you find the correct one, you have to go through all this bullshit to just get to the god damn gif file itself. Like wtf?
+      And then when you find the correct one, you have to go through all this bullshit to just get to the gods damn gif file itself. Like wtf?
     </p>
 
     <p>
-      Here are hard-coded urls for the right god damn gifs (just memorize them and type them into the address bar, Slack, HipChat, Twitter, or anywhere else):
+      Here are hard-coded urls for the right gods damn gifs. Click to copy the permalink to your clipboard.
     </p>
 
-    <div itemscope="itemscope" itemtype="gif">
+    <div itemscope="itemscope" itemtype="gif" onclick="copyChildToClipboard(this)">
 	<a itemscope="itemscope" itemprop="url" href="http://rgif.io/asianthumbsup.gif">asianthumbsup.gif</a>
 	<br/>
-	<img itemscope="itemscope" itemprop="thumbnail-url" onclick="copyToClipboard(this)" src="http://rgif.io/asianthumbsup.png" height="128" />
+	<img itemscope="itemscope" itemprop="thumbnail-url" src="http://rgif.io/asianthumbsup.png" height="128" />
     </div>
-    <div itemscope="itemscope" itemtype="gif">
+    <div itemscope="itemscope" itemtype="gif" onclick="copyChildToClipboard(this)">
 	<a itemscope="itemscope" itemprop="url" href="http://rgif.io/grimacing.gif">grimacing.gif</a>
 	<br/>
-	<img itemscope="itemscope" itemprop="thumbnail-url" onclick="copyToClipboard(this)" src="http://rgif.io/grimacing.png" height="128" />
+	<img itemscope="itemscope" itemprop="thumbnail-url" src="http://rgif.io/grimacing.png" height="128" />
     </div>
-    <div itemscope="itemscope" itemtype="gif">
+    <div itemscope="itemscope" itemtype="gif" onclick="copyChildToClipboard(this)">
 	<a itemscope="itemscope" itemprop="url" href="http://rgif.io/babyconfused.gif">babyconfused.gif</a>
 	<br/>
-	<img itemscope="itemscope" itemprop="thumbnail-url" onclick="copyToClipboard(this)" src="http://rgif.io/babyconfused.png" height="128" />
+	<img itemscope="itemscope" itemprop="thumbnail-url" src="http://rgif.io/babyconfused.png" height="128" />
     </div>
-    <div itemscope="itemscope" itemtype="gif">
+    <div itemscope="itemscope" itemtype="gif" onclick="copyChildToClipboard(this)">
 	<a itemscope="itemscope" itemprop="url" href="http://rgif.io/kidthumbsup.gif">kidthumbsup.gif</a>
 	<br/>
-	<img itemscope="itemscope" itemprop="thumbnail-url" onclick="copyToClipboard(this)" src="http://rgif.io/kidthumbsup.png" height="128" />
+	<img itemscope="itemscope" itemprop="thumbnail-url" src="http://rgif.io/kidthumbsup.png" height="128" />
     </div>
-    <div itemscope="itemscope" itemtype="gif">
+    <div itemscope="itemscope" itemtype="gif" onclick="copyChildToClipboard(this)">
 	<a itemscope="itemscope" itemprop="url" href="http://rgif.io/officebunny.gif">officebunny.gif</a>
 	<br/>
-	<img itemscope="itemscope" itemprop="thumbnail-url" onclick="copyToClipboard(this)" src="http://rgif.io/officebunny.png" height="128" />
+	<img itemscope="itemscope" itemprop="thumbnail-url" src="http://rgif.io/officebunny.png" height="128" />
     </div>
-    <div itemscope="itemscope" itemtype="gif">
+    <div itemscope="itemscope" itemtype="gif" onclick="copyChildToClipboard(this)">
 	<a itemscope="itemscope" itemprop="url" href="http://rgif.io/butwhy.gif">butwhy.gif</a>
 	<br/>
-	<img itemscope="itemscope" itemprop="thumbnail-url" onclick="copyToClipboard(this)" src="http://rgif.io/butwhy.png" height="128" />
+	<img itemscope="itemscope" itemprop="thumbnail-url" src="http://rgif.io/butwhy.png" height="128" />
     </div>
-    <div itemscope="itemscope" itemtype="gif">
+    <div itemscope="itemscope" itemtype="gif" onclick="copyChildToClipboard(this)">
 	<a itemscope="itemscope" itemprop="url" href="http://rgif.io/disappointed-fan.gif">disappointed-fan.gif</a>
 	<br/>
-	<img itemscope="itemscope" itemprop="thumbnail-url" onclick="copyToClipboard(this)" src="http://rgif.io/disappointed-fan.png" height="128" />
+	<img itemscope="itemscope" itemprop="thumbnail-url" src="http://rgif.io/disappointed-fan.png" height="128" />
     </div>
-    <div itemscope="itemscope" itemtype="gif">
+    <div itemscope="itemscope" itemtype="gif" onclick="copyChildToClipboard(this)">
 	<a itemscope="itemscope" itemprop="url" href="http://rgif.io/disappointed-justin.gif">disappointed-justin.gif</a>
 	<br/>
-	<img itemscope="itemscope" itemprop="thumbnail-url" onclick="copyToClipboard(this)" src="http://rgif.io/disappointed-justin.png" height="128" />
+	<img itemscope="itemscope" itemprop="thumbnail-url" src="http://rgif.io/disappointed-justin.png" height="128" />
     </div>
-    <div itemscope="itemscope" itemtype="gif">
+    <div itemscope="itemscope" itemtype="gif" onclick="copyChildToClipboard(this)">
 	<a itemscope="itemscope" itemprop="url" href="http://rgif.io/evil-laughter.gif">evil-laughter.gif</a>
 	<br/>
-	<img itemscope="itemscope" itemprop="thumbnail-url" onclick="copyToClipboard(this)" src="http://rgif.io/evil-laughter.png" height="128" />
+	<img itemscope="itemscope" itemprop="thumbnail-url" src="http://rgif.io/evil-laughter.png" height="128" />
     </div>
-    <div itemscope="itemscope" itemtype="gif">
+    <div itemscope="itemscope" itemtype="gif" onclick="copyChildToClipboard(this)">
 	<a itemscope="itemscope" itemprop="url" href="http://rgif.io/facepalm.gif">facepalm.gif</a>
 	<br/>
-	<img itemscope="itemscope" itemprop="thumbnail-url" onclick="copyToClipboard(this)" src="http://rgif.io/facepalm.png" height="128" />
+	<img itemscope="itemscope" itemprop="thumbnail-url" src="http://rgif.io/facepalm.png" height="128" />
     </div>
-    <div itemscope="itemscope" itemtype="gif">
+    <div itemscope="itemscope" itemtype="gif" onclick="copyChildToClipboard(this)">
 	<a itemscope="itemscope" itemprop="url" href="http://rgif.io/idowhatiwant.gif">idowhatiwant.gif</a>
 	<br/>
-	<img itemscope="itemscope" itemprop="thumbnail-url" onclick="copyToClipboard(this)" src="http://rgif.io/idowhatiwant.png" height="128" />
+	<img itemscope="itemscope" itemprop="thumbnail-url" src="http://rgif.io/idowhatiwant.png" height="128" />
     </div>
-    <div itemscope="itemscope" itemtype="gif">
+    <div itemscope="itemscope" itemtype="gif" onclick="copyChildToClipboard(this)">
 	<a itemscope="itemscope" itemprop="url" href="http://rgif.io/kaneclapping.gif">kaneclapping.gif</a>
 	<br/>
-	<img itemscope="itemscope" itemprop="thumbnail-url" onclick="copyToClipboard(this)" src="http://rgif.io/kaneclapping.png" height="128" />
+	<img itemscope="itemscope" itemprop="thumbnail-url" src="http://rgif.io/kaneclapping.png" height="128" />
     </div>
-    <div itemscope="itemscope" itemtype="gif">
+    <div itemscope="itemscope" itemtype="gif" onclick="copyChildToClipboard(this)">
 	<a itemscope="itemscope" itemprop="url" href="http://rgif.io/kaneclapping.gif">kashif.gif</a>
 	<br/>
-	<img itemscope="itemscope" itemprop="thumbnail-url" onclick="copyToClipboard(this)" src="http://rgif.io/kashif.png" height="128" />
+	<img itemscope="itemscope" itemprop="thumbnail-url" src="http://rgif.io/kashif.png" height="128" />
     </div>
-    <div itemscope="itemscope" itemtype="gif">
+    <div itemscope="itemscope" itemtype="gif" onclick="copyChildToClipboard(this)">
 	<a itemscope="itemscope" itemprop="url" href="http://rgif.io/excellentburns.gif">excellentburns.gif</a>
 	<br/>
-	<img itemscope="itemscope" itemprop="thumbnail-url" onclick="copyToClipboard(this)" src="http://rgif.io/excellentburns.png" height="128" />
+	<img itemscope="itemscope" itemprop="thumbnail-url" src="http://rgif.io/excellentburns.png" height="128" />
     </div>
-    <div itemscope="itemscope" itemtype="gif">
+    <div itemscope="itemscope" itemtype="gif" onclick="copyChildToClipboard(this)">
 	<a itemscope="itemscope" itemprop="url" href="http://rgif.io/nope.gif">nope.gif</a>
 	<br/>
-	<img itemscope="itemscope" itemprop="thumbnail-url" onclick="copyToClipboard(this)" src="http://rgif.io/nope.png" height="128" />
+	<img itemscope="itemscope" itemprop="thumbnail-url" src="http://rgif.io/nope.png" height="128" />
     </div>
-    <div itemscope="itemscope" itemtype="gif">
+    <div itemscope="itemscope" itemtype="gif" onclick="copyChildToClipboard(this)">
 	<a itemscope="itemscope" itemprop="url" href="http://rgif.io/fireflyconfused.gif">fireflyconfused.gif</a>
 	<br/>
-	<img itemscope="itemscope" itemprop="thumbnail-url" onclick="copyToClipboard(this)" src="http://rgif.io/fireflyconfused.png" height="128" />
+	<img itemscope="itemscope" itemprop="thumbnail-url" src="http://rgif.io/fireflyconfused.png" height="128" />
     </div>
-    <div itemscope="itemscope" itemtype="gif">
+    <div itemscope="itemscope" itemtype="gif" onclick="copyChildToClipboard(this)">
 	<a itemscope="itemscope" itemprop="url" href="http://rgif.io/gladiatorthumbsup.gif">gladiatorthumbsup.gif</a>
 	<br/>
-	<img itemscope="itemscope" itemprop="thumbnail-url" onclick="copyToClipboard(this)" src="http://rgif.io/gladiatorthumbsup.png" height="128" />
+	<img itemscope="itemscope" itemprop="thumbnail-url" src="http://rgif.io/gladiatorthumbsup.png" height="128" />
     </div>
-    <div itemscope="itemscope" itemtype="gif">
+    <div itemscope="itemscope" itemtype="gif" onclick="copyChildToClipboard(this)">
 	<a itemscope="itemscope" itemprop="url" href="http://rgif.io/words.gif">words.gif</a>
 	<br/>
-	<img itemscope="itemscope" itemprop="thumbnail-url" onclick="copyToClipboard(this)" src="http://rgif.io/words.png" height="128" />
+	<img itemscope="itemscope" itemprop="thumbnail-url" src="http://rgif.io/words.png" height="128" />
     </div>
-    <div itemscope="itemscope" itemtype="gif">
+    <div itemscope="itemscope" itemtype="gif" onclick="copyChildToClipboard(this)">
 	<a itemscope="itemscope" itemprop="url" href="http://rgif.io/goodgood.gif">goodgood.gif</a>
 	<br/>
-	<img itemscope="itemscope" itemprop="thumbnail-url" onclick="copyToClipboard(this)" src="http://rgif.io/goodgood.png" height="128" />
+	<img itemscope="itemscope" itemprop="thumbnail-url" src="http://rgif.io/goodgood.png" height="128" />
     </div>
-    <div itemscope="itemscope" itemtype="gif">
+    <div itemscope="itemscope" itemtype="gif" onclick="copyChildToClipboard(this)">
 	<a itemscope="itemscope" itemprop="url" href="http://rgif.io/nopesimpsons.gif">nopesimpsons.gif</a>
 	<br/>
-	<img itemscope="itemscope" itemprop="thumbnail-url" onclick="copyToClipboard(this)" src="http://rgif.io/nopesimpsons.png" height="128" />
+	<img itemscope="itemscope" itemprop="thumbnail-url" src="http://rgif.io/nopesimpsons.png" height="128" />
     </div>
-    <div itemscope="itemscope" itemtype="gif">
-	<a itemscope="itemscope" itemprop="url" href="http://rgif.io/hatersgonnahate.gif">hatersgonnahate.gif</a>
-	<br/>
-	<img itemscope="itemscope" itemprop="thumbnail-url" onclick="copyToClipboard(this)" src="http://rgif.io/hatersgonnahate.png" height="128" />
-    </div>
-    <div itemscope="itemscope" itemtype="gif">
+    <div itemscope="itemscope" itemtype="gif" onclick="copyChildToClipboard(this)">
 	<a itemscope="itemscope" itemprop="url" href="http://rgif.io/hellno.gif">hellno.gif</a>
 	<br/>
-	<img itemscope="itemscope" itemprop="thumbnail-url" onclick="copyToClipboard(this)" src="http://rgif.io/hellno.png" height="128" />
+	<img itemscope="itemscope" itemprop="thumbnail-url" src="http://rgif.io/hellno.png" height="128" />
     </div>
-    <div itemscope="itemscope" itemtype="gif">
+    <div itemscope="itemscope" itemtype="gif" onclick="copyChildToClipboard(this)">
 	<a itemscope="itemscope" itemprop="url" href="http://rgif.io/holdontoyourbutts.gif">holdontoyourbutts.gif</a>
 	<br/>
-	<img itemscope="itemscope" itemprop="thumbnail-url" onclick="copyToClipboard(this)" src="http://rgif.io/holdontoyourbutts.png" height="128" />
+	<img itemscope="itemscope" itemprop="thumbnail-url" src="http://rgif.io/holdontoyourbutts.png" height="128" />
     </div>
-    <div itemscope="itemscope" itemtype="gif">
+    <div itemscope="itemscope" itemtype="gif" onclick="copyChildToClipboard(this)">
 	<a itemscope="itemscope" itemprop="url" href="http://rgif.io/homerbush.gif">homerbush.gif</a>
 	<br/>
-	<img itemscope="itemscope" itemprop="thumbnail-url" onclick="copyToClipboard(this)" src="http://rgif.io/homerbush.png" height="128" />
+	<img itemscope="itemscope" itemprop="thumbnail-url" src="http://rgif.io/homerbush.png" height="128" />
     </div>
-    <div itemscope="itemscope" itemtype="gif">
+    <div itemscope="itemscope" itemtype="gif" onclick="copyChildToClipboard(this)">
 	<a itemscope="itemscope" itemprop="url" href="http://rgif.io/woohoo.gif">woohoo.gif</a>
 	<br/>
-	<img itemscope="itemscope" itemprop="thumbnail-url" onclick="copyToClipboard(this)" src="http://rgif.io/woohoo.png" height="128" />
+	<img itemscope="itemscope" itemprop="thumbnail-url" src="http://rgif.io/woohoo.png" height="128" />
     </div>
-    <div itemscope="itemscope" itemtype="gif">
+    <div itemscope="itemscope" itemtype="gif" onclick="copyChildToClipboard(this)">
 	<a itemscope="itemscope" itemprop="url" href="http://rgif.io/itsatrap.gif">itsatrap.gif</a>
 	<br/>
-	<img itemscope="itemscope" itemprop="thumbnail-url" onclick="copyToClipboard(this)" src="http://rgif.io/itsatrap.png" height="128" />
+	<img itemscope="itemscope" itemprop="thumbnail-url" src="http://rgif.io/itsatrap.png" height="128" />
     </div>
-    <div itemscope="itemscope" itemtype="gif">
+    <div itemscope="itemscope" itemtype="gif" onclick="copyChildToClipboard(this)">
 	<a itemscope="itemscope" itemprop="url" href="http://rgif.io/regret.gif">regret.gif</a>
 	<br/>
-	<img itemscope="itemscope" itemprop="thumbnail-url" onclick="copyToClipboard(this)" src="http://rgif.io/regret.png" height="128" />
+	<img itemscope="itemscope" itemprop="thumbnail-url" src="http://rgif.io/regret.png" height="128" />
     </div>
-    <div itemscope="itemscope" itemtype="gif">
+    <div itemscope="itemscope" itemtype="gif" onclick="copyChildToClipboard(this)">
 	<a itemscope="itemscope" itemprop="url" href="http://rgif.io/yeaok.gif">yeaok.gif</a>
 	<br/>
-	<img itemscope="itemscope" itemprop="thumbnail-url" onclick="copyToClipboard(this)" src="http://rgif.io/yeaok.png" height="128" />
+	<img itemscope="itemscope" itemprop="thumbnail-url" src="http://rgif.io/yeaok.png" height="128" />
     </div>
-    <div itemscope="itemscope" itemtype="gif">
+    <div itemscope="itemscope" itemtype="gif" onclick="copyChildToClipboard(this)">
 	<a itemscope="itemscope" itemprop="url" href="http://rgif.io/maybe.gif">maybe.gif</a>
 	<br/>
-	<img itemscope="itemscope" itemprop="thumbnail-url" onclick="copyToClipboard(this)" src="http://rgif.io/maybe.png" height="128" />
+	<img itemscope="itemscope" itemprop="thumbnail-url" src="http://rgif.io/maybe.png" height="128" />
     </div>
-    <div itemscope="itemscope" itemtype="gif">
+    <div itemscope="itemscope" itemtype="gif" onclick="copyChildToClipboard(this)">
 	<a itemscope="itemscope" itemprop="url" href="http://rgif.io/pulpfiction.gif">pulpfiction.gif</a>
 	<br/>
-	<img itemscope="itemscope" itemprop="thumbnail-url" onclick="copyToClipboard(this)" src="http://rgif.io/pulpfiction.png" height="128" />
+	<img itemscope="itemscope" itemprop="thumbnail-url" src="http://rgif.io/pulpfiction.png" height="128" />
     </div>
-    <div itemscope="itemscope" itemtype="gif">
+    <div itemscope="itemscope" itemtype="gif" onclick="copyChildToClipboard(this)">
 	<a itemscope="itemscope" itemprop="url" href="http://rgif.io/jokerclapping.gif">jokerclapping.gif</a>
 	<br/>
-	<img itemscope="itemscope" itemprop="thumbnail-url" onclick="copyToClipboard(this)" src="http://rgif.io/jokerclapping.png" height="128" />
+	<img itemscope="itemscope" itemprop="thumbnail-url" src="http://rgif.io/jokerclapping.png" height="128" />
     </div>
-    <div itemscope="itemscope" itemtype="gif">
+    <div itemscope="itemscope" itemtype="gif" onclick="copyChildToClipboard(this)">
 	<a itemscope="itemscope" itemprop="url" href="http://rgif.io/kermit.gif">kermit.gif</a>
 	<br/>
-	<img itemscope="itemscope" itemprop="thumbnail-url" onclick="copyToClipboard(this)" src="http://rgif.io/kermit.png" height="128" />
+	<img itemscope="itemscope" itemprop="thumbnail-url" src="http://rgif.io/kermit.png" height="128" />
     </div>
-    <div itemscope="itemscope" itemtype="gif">
+    <div itemscope="itemscope" itemtype="gif" onclick="copyChildToClipboard(this)">
 	<a itemscope="itemscope" itemprop="url" href="http://rgif.io/raiseglass.gif">raiseglass.gif</a>
 	<br/>
-	<img itemscope="itemscope" itemprop="thumbnail-url" onclick="copyToClipboard(this)" src="http://rgif.io/raiseglass.png" height="128" />
+	<img itemscope="itemscope" itemprop="thumbnail-url" src="http://rgif.io/raiseglass.png" height="128" />
     </div>
-    <div itemscope="itemscope" itemtype="gif">
+    <div itemscope="itemscope" itemtype="gif" onclick="copyChildToClipboard(this)">
 	<a itemscope="itemscope" itemprop="url" href="http://rgif.io/luigideathstare.gif">luigideathstare.gif</a>
 	<br/>
-	<img itemscope="itemscope" itemprop="thumbnail-url" onclick="copyToClipboard(this)" src="http://rgif.io/luigideathstare.png" height="128" />
+	<img itemscope="itemscope" itemprop="thumbnail-url" src="http://rgif.io/luigideathstare.png" height="128" />
     </div>
-    <div itemscope="itemscope" itemtype="gif">
+    <div itemscope="itemscope" itemtype="gif" onclick="copyChildToClipboard(this)">
 	<a itemscope="itemscope" itemprop="url" href="http://rgif.io/magic.gif">magic.gif</a>
 	<br/>
-	<img itemscope="itemscope" itemprop="thumbnail-url" onclick="copyToClipboard(this)" src="http://rgif.io/magic.png" height="128" />
+	<img itemscope="itemscope" itemprop="thumbnail-url" src="http://rgif.io/magic.png" height="128" />
     </div>
-    <div itemscope="itemscope" itemtype="gif">
+    <div itemscope="itemscope" itemtype="gif" onclick="copyChildToClipboard(this)">
 	<a itemscope="itemscope" itemprop="url" href="http://rgif.io/makeitrain.gif">makeitrain.gif</a>
 	<br/>
-	<img itemscope="itemscope" itemprop="thumbnail-url" onclick="copyToClipboard(this)" src="http://rgif.io/makeitrain.png" height="128" />
+	<img itemscope="itemscope" itemprop="thumbnail-url" src="http://rgif.io/makeitrain.png" height="128" />
     </div>
-    <div itemscope="itemscope" itemtype="gif">
+    <div itemscope="itemscope" itemtype="gif" onclick="copyChildToClipboard(this)">
 	<a itemscope="itemscope" itemprop="url" href="http://rgif.io/somebodystopme.gif">somebodystopme.gif</a>
 	<br/>
-	<img itemscope="itemscope" itemprop="thumbnail-url" onclick="copyToClipboard(this)" src="http://rgif.io/somebodystopme.png" height="128" />
+	<img itemscope="itemscope" itemprop="thumbnail-url" src="http://rgif.io/somebodystopme.png" height="128" />
     </div>
-    <div itemscope="itemscope" itemtype="gif">
+    <div itemscope="itemscope" itemtype="gif" onclick="copyChildToClipboard(this)">
 	<a itemscope="itemscope" itemprop="url" href="http://rgif.io/mindblown.gif">mindblown.gif</a>
 	<br/>
-	<img itemscope="itemscope" itemprop="thumbnail-url" onclick="copyToClipboard(this)" src="http://rgif.io/mindblown.png" height="128" />
+	<img itemscope="itemscope" itemprop="thumbnail-url" src="http://rgif.io/mindblown.png" height="128" />
     </div>
-    <div itemscope="itemscope" itemtype="gif">
+    <div itemscope="itemscope" itemtype="gif" onclick="copyChildToClipboard(this)">
 	<a itemscope="itemscope" itemprop="url" href="http://rgif.io/nogodno.gif">nogodno.gif</a>
 	<br/>
-	<img itemscope="itemscope" itemprop="thumbnail-url" onclick="copyToClipboard(this)" src="http://rgif.io/nogodno.png" height="128" />
+	<img itemscope="itemscope" itemprop="thumbnail-url" src="http://rgif.io/nogodno.png" height="128" />
     </div>
-    <div itemscope="itemscope" itemtype="gif">
+    <div itemscope="itemscope" itemtype="gif" onclick="copyChildToClipboard(this)">
 	<a itemscope="itemscope" itemprop="url" href="http://rgif.io/nod.gif">nodding.gif</a>
 	<br/>
-	<img itemscope="itemscope" itemprop="thumbnail-url" onclick="copyToClipboard(this)" src="http://rgif.io/nod.png" height="128" />
+	<img itemscope="itemscope" itemprop="thumbnail-url" src="http://rgif.io/nod.png" height="128" />
     </div>
-    <div itemscope="itemscope" itemtype="gif">
+    <div itemscope="itemscope" itemtype="gif" onclick="copyChildToClipboard(this)">
 	<a itemscope="itemscope" itemprop="url" href="http://rgif.io/officespacedisagrees.gif">officespacedisagrees.gif</a>
 	<br/>
-	<img itemscope="itemscope" itemprop="thumbnail-url" onclick="copyToClipboard(this)" src="http://rgif.io/officespacedisagrees.png" height="128" />
+	<img itemscope="itemscope" itemprop="thumbnail-url" src="http://rgif.io/officespacedisagrees.png" height="128" />
     </div>
-    <div itemscope="itemscope" itemtype="gif">
+    <div itemscope="itemscope" itemtype="gif" onclick="copyChildToClipboard(this)">
 	<a itemscope="itemscope" itemprop="url" href="http://rgif.io/ohsnap.gif">ohsnap.gif</a>
 	<br/>
-	<img itemscope="itemscope" itemprop="thumbnail-url" onclick="copyToClipboard(this)" src="http://rgif.io/ohsnap.png" height="128" />
+	<img itemscope="itemscope" itemprop="thumbnail-url" src="http://rgif.io/ohsnap.png" height="128" />
     </div>
-    <div itemscope="itemscope" itemtype="gif">
+    <div itemscope="itemscope" itemtype="gif" onclick="copyChildToClipboard(this)">
 	<a itemscope="itemscope" itemprop="url" href="http://rgif.io/bees.gif">bees.gif</a>
 	<br/>
-	<img itemscope="itemscope" itemprop="thumbnail-url" onclick="copyToClipboard(this)" src="http://rgif.io/bees.png" height="128" />
+	<img itemscope="itemscope" itemprop="thumbnail-url" src="http://rgif.io/bees.png" height="128" />
     </div>
-    <div itemscope="itemscope" itemtype="gif">
+    <div itemscope="itemscope" itemtype="gif" onclick="copyChildToClipboard(this)">
 	<a itemscope="itemscope" itemprop="url" href="http://rgif.io/poet.gif">poet.gif</a>
 	<br/>
-	<img itemscope="itemscope" itemprop="thumbnail-url" onclick="copyToClipboard(this)" src="http://rgif.io/poet.png" height="128" />
+	<img itemscope="itemscope" itemprop="thumbnail-url" src="http://rgif.io/poet.png" height="128" />
     </div>
-    <div itemscope="itemscope" itemtype="gif">
+    <div itemscope="itemscope" itemtype="gif" onclick="copyChildToClipboard(this)">
 	<a itemscope="itemscope" itemprop="url" href="http://rgif.io/panda.gif">panda.gif</a>
 	<br/>
-	<img itemscope="itemscope" itemprop="thumbnail-url" onclick="copyToClipboard(this)" src="http://rgif.io/panda.png" height="128" />
+	<img itemscope="itemscope" itemprop="thumbnail-url" src="http://rgif.io/panda.png" height="128" />
     </div>
-    <div itemscope="itemscope" itemtype="gif">
+    <div itemscope="itemscope" itemtype="gif" onclick="copyChildToClipboard(this)">
 	<a itemscope="itemscope" itemprop="url" href="http://rgif.io/patrick.gif">patrick.gif</a>
 	<br/>
-	<img itemscope="itemscope" itemprop="thumbnail-url" onclick="copyToClipboard(this)" src="http://rgif.io/patrick.png" height="128" />
+	<img itemscope="itemscope" itemprop="thumbnail-url" src="http://rgif.io/patrick.png" height="128" />
     </div>
-    <div itemscope="itemscope" itemtype="gif">
+    <div itemscope="itemscope" itemtype="gif" onclick="copyChildToClipboard(this)">
 	<a itemscope="itemscope" itemprop="url" href="http://rgif.io/politicianclapping.gif">politicianclapping.gif</a>
 	<br/>
-	<img itemscope="itemscope" itemprop="thumbnail-url" onclick="copyToClipboard(this)" src="http://rgif.io/politicianclapping.png" height="128" />
+	<img itemscope="itemscope" itemprop="thumbnail-url" src="http://rgif.io/politicianclapping.png" height="128" />
     </div>
-    <div itemscope="itemscope" itemtype="gif">
+    <div itemscope="itemscope" itemtype="gif" onclick="copyChildToClipboard(this)">
 	<a itemscope="itemscope" itemprop="url" href="http://rgif.io/rr.gif">rr.gif</a>
 	<br/>
-	<img itemscope="itemscope" itemprop="thumbnail-url" onclick="copyToClipboard(this)" src="http://rgif.io/rr.png" height="128" />
+	<img itemscope="itemscope" itemprop="thumbnail-url" src="http://rgif.io/rr.png" height="128" />
     </div>
-    <div itemscope="itemscope" itemtype="gif">
+    <div itemscope="itemscope" itemtype="gif" onclick="copyChildToClipboard(this)">
 	<a itemscope="itemscope" itemprop="url" href="http://rgif.io/robotconfused.gif">robotconfused.gif</a>
 	<br/>
-	<img itemscope="itemscope" itemprop="thumbnail-url" onclick="copyToClipboard(this)" src="http://rgif.io/robotconfused.png" height="128" />
+	<img itemscope="itemscope" itemprop="thumbnail-url" src="http://rgif.io/robotconfused.png" height="128" />
     </div>
-    <div itemscope="itemscope" itemtype="gif">
+    <div itemscope="itemscope" itemtype="gif" onclick="copyChildToClipboard(this)">
 	<a itemscope="itemscope" itemprop="url" href="http://rgif.io/thinkaboutit.gif">thinkaboutit.gif</a>
 	<br/>
-	<img itemscope="itemscope" itemprop="thumbnail-url" onclick="copyToClipboard(this)" src="http://rgif.io/thinkaboutit.png" height="128" />
+	<img itemscope="itemscope" itemprop="thumbnail-url" src="http://rgif.io/thinkaboutit.png" height="128" />
     </div>
-    <div itemscope="itemscope" itemtype="gif">
+    <div itemscope="itemscope" itemtype="gif" onclick="copyChildToClipboard(this)">
 	<a itemscope="itemscope" itemprop="url" href="http://rgif.io/itshappening.gif">itshappening.gif</a>
 	<br/>
-	<img itemscope="itemscope" itemprop="thumbnail-url" onclick="copyToClipboard(this)" src="http://rgif.io/itshappening.png" height="128" />
+	<img itemscope="itemscope" itemprop="thumbnail-url" src="http://rgif.io/itshappening.png" height="128" />
     </div>
-    <div itemscope="itemscope" itemtype="gif">
+    <div itemscope="itemscope" itemtype="gif" onclick="copyChildToClipboard(this)">
 	<a itemscope="itemscope" itemprop="url" href="http://rgif.io/doit.gif">doit.gif</a>
 	<br/>
-	<img itemscope="itemscope" itemprop="thumbnail-url" onclick="copyToClipboard(this)" src="http://rgif.io/doit.png" height="128" />
+	<img itemscope="itemscope" itemprop="thumbnail-url" src="http://rgif.io/doit.png" height="128" />
     </div>
-    <div itemscope="itemscope" itemtype="gif">
+    <div itemscope="itemscope" itemtype="gif" onclick="copyChildToClipboard(this)">
 	<a itemscope="itemscope" itemprop="url" href="http://rgif.io/showdown.gif">showdown.gif</a>
 	<br/>
-	<img itemscope="itemscope" itemprop="thumbnail-url" onclick="copyToClipboard(this)" src="http://rgif.io/showdown.png" height="128" />
+	<img itemscope="itemscope" itemprop="thumbnail-url" src="http://rgif.io/showdown.png" height="128" />
     </div>
-    <div itemscope="itemscope" itemtype="gif">
+    <div itemscope="itemscope" itemtype="gif" onclick="copyChildToClipboard(this)">
 	<a itemscope="itemscope" itemprop="url" href="http://rgif.io/stopgirl.gif">stopgirl.gif</a>
 	<br/>
-	<img itemscope="itemscope" itemprop="thumbnail-url" onclick="copyToClipboard(this)" src="http://rgif.io/stopgirl.png" height="128" />
+	<img itemscope="itemscope" itemprop="thumbnail-url" src="http://rgif.io/stopgirl.png" height="128" />
     </div>
-    <div itemscope="itemscope" itemtype="gif">
+    <div itemscope="itemscope" itemtype="gif" onclick="copyChildToClipboard(this)">
 	<a itemscope="itemscope" itemprop="url" href="http://rgif.io/surprised.gif">suprised.gif</a>
 	<br/>
-	<img itemscope="itemscope" itemprop="thumbnail-url" onclick="copyToClipboard(this)" src="http://rgif.io/surprised.png" height="128" />
+	<img itemscope="itemscope" itemprop="thumbnail-url" src="http://rgif.io/surprised.png" height="128" />
     </div>
-    <div itemscope="itemscope" itemtype="gif">
+    <div itemscope="itemscope" itemtype="gif" onclick="copyChildToClipboard(this)">
 	<a itemscope="itemscope" itemprop="url" href="http://rgif.io/themoreyouknow.gif">themoreyouknow.gif</a>
 	<br/>
-	<img itemscope="itemscope" itemprop="thumbnail-url" onclick="copyToClipboard(this)" src="http://rgif.io/themoreyouknow.png" height="128" />
+	<img itemscope="itemscope" itemprop="thumbnail-url" src="http://rgif.io/themoreyouknow.png" height="128" />
     </div>
-    <div itemscope="itemscope" itemtype="gif">
+    <div itemscope="itemscope" itemtype="gif" onclick="copyChildToClipboard(this)">
 	<a itemscope="itemscope" itemprop="url" href="http://rgif.io/9000.gif">9000.gif</a>
 	<br/>
-	<img itemscope="itemscope" itemprop="thumbnail-url" onclick="copyToClipboard(this)" src="http://rgif.io/9000.png" height="128" />
+	<img itemscope="itemscope" itemprop="thumbnail-url" src="http://rgif.io/9000.png" height="128" />
     </div>
-    <div itemscope="itemscope" itemtype="gif">
+    <div itemscope="itemscope" itemtype="gif" onclick="copyChildToClipboard(this)">
 	<a itemscope="itemscope" itemprop="url" href="http://rgif.io/whatever.gif">whatever.gif</a>
 	<br/>
-	<img itemscope="itemscope" itemprop="thumbnail-url" onclick="copyToClipboard(this)" src="http://rgif.io/whatever.png" height="128" />
+	<img itemscope="itemscope" itemprop="thumbnail-url" src="http://rgif.io/whatever.png" height="128" />
     </div>
-    <div itemscope="itemscope" itemtype="gif">
+    <div itemscope="itemscope" itemtype="gif" onclick="copyChildToClipboard(this)">
+	<a itemscope="itemscope" itemprop="url" href="wtf.gif">wtf.gif</a>
+	<br/>
+	<img itemscope="itemscope" itemprop="thumbnail-url" src="http://rgif.io/wtf.png" height="128" />
+    </div>
+    <div itemscope="itemscope" itemtype="gif" onclick="copyChildToClipboard(this)">
 	<a itemscope="itemscope" itemprop="url" href="http://rgif.io/whynot.gif">whynot.gif</a>
 	<br/>
-	<img itemscope="itemscope" itemprop="thumbnail-url" onclick="copyToClipboard(this)" src="http://rgif.io/whynot.png" height="128" />
+	<img itemscope="itemscope" itemprop="thumbnail-url" src="http://rgif.io/whynot.png" height="128" />
     </div>
-    <div itemscope="itemscope" itemtype="gif">
+    <div itemscope="itemscope" itemtype="gif" onclick="copyChildToClipboard(this)">
 	<a itemscope="itemscope" itemprop="url" href="http://rgif.io/yougotitdude.gif">yougotitdude.gif</a>
 	<br/>
-	<img itemscope="itemscope" itemprop="thumbnail-url" onclick="copyToClipboard(this)" src="http://rgif.io/yougotitdude.png" height="128" />
+	<img itemscope="itemscope" itemprop="thumbnail-url" src="http://rgif.io/yougotitdude.png" height="128" />
     </div>
-    <div itemscope="itemscope" itemtype="gif">
+    <div itemscope="itemscope" itemtype="gif" onclick="copyChildToClipboard(this)">
 	<a itemscope="itemscope" itemprop="url" href="http://rgif.io/youregoddamnright.gif">youregoddamnright.gif</a>
 	<br/>
-	<img itemscope="itemscope" itemprop="thumbnail-url" onclick="copyToClipboard(this)" src="http://rgif.io/youregoddamnright.png" height="128" />
+	<img itemscope="itemscope" itemprop="thumbnail-url" src="http://rgif.io/youregoddamnright.png" height="128" />
     </div>
     <span id="message">Copied to Clipboard</div>
   </body>
