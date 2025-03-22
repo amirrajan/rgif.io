@@ -7,13 +7,13 @@ directory="."
 current_dir=$(pwd)
 set +x
 # Get the filename and extension
-file="$current_dir/entertained.gif"
+file="$current_dir/memory.gif"
 filename=$(basename "$file")
 extension="${filename##*.}"
 
 echo "resizing $file"
 # Resize the GIF proportionally using ImageMagick
-magick "$file" -coalesce -resize 320x -deconstruct "$directory/resized_$filename"
+magick "$file" -coalesce -resize 320x -layers CompareAny "$directory/resized_$filename"
 
 # Uncomment the line below if you want to overwrite the original file
 mv "$directory/resized_$filename" "$file"

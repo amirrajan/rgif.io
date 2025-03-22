@@ -3,7 +3,7 @@
 # Get the current directory
 current_dir=$(pwd)
 set +x
-file="$current_dir/entertained.gif"
+file="$current_dir/memory.gif"
 filename=$(basename "$file")
 filename="${filename%.*}"
 magick "$file[0]" "$filename.png"
