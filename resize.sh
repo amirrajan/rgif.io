@@ -7,7 +7,7 @@ directory="."
 current_dir=$(pwd)
 set +x
 # Get the filename and extension
-file="$current_dir/memory.gif"
+file="$current_dir/crack.gif"
 filename=$(basename "$file")
 extension="${filename##*.}"
 
